@@ -2,7 +2,7 @@ from typing import Dict, Tuple, List
 import discord
 import asyncio
 from collections import defaultdict
-from ...config import settings
+from config import settings
 
 async def process_messages(
     channel,
